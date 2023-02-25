@@ -1,0 +1,57 @@
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(0, 193, 252);
+    height: 35rem;
+    width: 25rem;
+    border-radius:30px ;
+    -webkit-box-shadow: 1px 2px 99px -30px rgb(10, 157, 255);
+    -moz-box-shadow: 1px 2px 99px -30px rgb(10, 186, 255);
+    box-shadow: 1px 2px 99px -30px rgb(10, 169, 255);
+}
+
+.todotxt{
+  margin-top: 20px;
+  border: 2px solid rgb(5, 115, 251);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 10px;
+  color: rgb(13, 107, 248);
+  margin-top: -450px;
+  position:absolute;
+}
+.inputfield{
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: -340px;
+  width: 190px;
+  margin-left: 27px;
+}
+.inputText{
+  background-color: black;
+  height: 30px;
+  color: rgb(35, 116, 255);
+
+  border-bottom-color: rgb(35, 116, 255);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+}

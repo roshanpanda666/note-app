@@ -4,7 +4,7 @@
   align-items: center;
   height: 100vh;
   background-color: black;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   
 }
@@ -79,4 +79,37 @@
 li{
   color: rgb(0, 187, 255);
   font-size: 1.3rem;
+}
+
+.leftbar{
+  border: 1px solid blue;
+  height: 27rem;
+  transition-duration: 0.50ms;
+  animation-name:barMove ;
+  animation-duration: 0.60s;
+  display: block;
+}
+
+.noAnimatebar{
+  border: 1px solid blue;
+
+  display: none;
+}
+
+.fatherlist{
+  display: flex;
+}
+.iconsW{
+  color: rgb(0, 106, 255);
+  margin-right: 30px;
+  margin-top: 5px;
+}
+.iconsW:hover{
+  color: red;
+}
+@keyframes barMove {
+  0% {height: 0px;}
+
+  50%{height: 27rem;}
+
 }
